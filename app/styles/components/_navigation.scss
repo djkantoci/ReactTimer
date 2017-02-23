@@ -1,0 +1,12 @@
+.top-bar {
+  background: $nav-background;
+  color: $nav-color;
+
+  ul {
+    background: $nav-background;
+
+    .active {
+      font-weight: bold;
+    }
+  }
+}
