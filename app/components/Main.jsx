@@ -5,8 +5,8 @@ var Main = (props) => {
   return (
     <div>
       <Nav/>
-      <div className="row">
-        <div className="large-4 medium-6 small-centered columns">
+      <div className="grid-x align-center">
+        <div className="small-4 cell">
           {props.children}
         </div>
       </div>
